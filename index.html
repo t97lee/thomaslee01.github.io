@@ -198,32 +198,55 @@
               <h1 class="title has-text-centered section-title">Projects</h1>
             </div>
 
-            <div class="column is-4">
+            <div class="column is-3">
               <a href="https://share.streamlit.io/thomaslee01/vapourpressuregraph/Antoine_Graph.py">
                 <figure class="image is-2by1 work-item" style="background-image: url('')">
                   <img class="streamlit_proj" src="static/img/streamlit.jpg"> <!-- needs to scale img to size-->
                 </figure>
-                <strong>Generating Pressure Graphs via Antoine's Equation</strong><br><br>
+                <strong>Vapour Pressure vs Temperature</strong><br><br>
               </a>
               <p> A web application that generates graphs of vapour pressure (mmHg) vs. temperature (°C) from Antoine's Equation. 
                 The app prompts the user to input a temperature in degrees celsius (°C) and the coefficients, A, B, and C for the equation and outputs an interactive graph generated from Bokeh. 
                 Additionally, users may request a table of values to be generated with just a click of a button. <br><br>
                 The project is developed using Python for the calculations and data processing and Streamlit was used for the front-end. 
-                It is currently a WIP and a demo can be found on the Github repo <a href="https://github.com/thomaslee01/VapourPressureGraph">here.</a></p>
+                It is currently a WIP and a demo can be found on the GitHub repo <a href="https://github.com/thomaslee01/VapourPressureGraph">here.</a></p>
             </div>
 
-            <div class="column is-4">
+            <div class="column is-3">
+              <a href="https://github.com/thomaslee01/st.spotify">
+                <figure class="image is-2by1 work-item" style="background-image: url('')">
+                  <img class="arduino" src="static/img/st.spot.png"> <!-- needs image-->
+                </figure>
+                <strong>Spotify Song Analyser &#127930;</strong><br><br>
+              </a>
+              <p>Another Streamlit web application. Input a track title of a song on Spotify and obtain features of the song such as:
+                <ul class="stack">
+                  <li>Danceability</li>
+                  <li>Energy</li>
+                  <li>Acousticness</li>
+                </ul><br>
+                Additionally, there is a feature in which the app can recommend songs based on the inputted track.
+                <br><br>
+                The app was written in Python and uses the <a href="https://spotipy.readthedocs.io/">Spotipy</a> library. 
+                The data is then put into a <a href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html">Pandas DataFrame</a> and graphed 
+                using <a href="https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html">Pandas Chart Visualization.</a>
+                All source code is available on GitHub <a href="https://github.com/thomaslee01/st.spotify">here.</a>
+              </p>
+            </div>
+
+            <div class="column is-3">
               <a href="https://github.com/thomaslee01/ArduinoRTD">
                 <figure class="image is-2by1 work-item" style="background-image: url('')">
-                  <img class="arduino" src="static/img/RTD_1.jpg"> <!-- needs image-->
+                  <img class="arduino" src="static/img/RTD_2.png"> <!-- needs image-->
                 </figure>
                 <strong>Arduino RTD Temperature Sensor</strong><br><br>
               </a>
               <p> This is a project in which an Arduino Uno R3 and an RTD (part no. F2222-1000-A-100) was used to determine the cryoscopic constant of a brine solution 
-                through the use of circuitry and thermal analysis. More documentation will be uploaded to the Github repo in the future.</p>
+                through the use of circuitry and thermal analysis. Pictures and code are available on the GitHub repo which can be viewed <a href="https://github.com/thomaslee01/ArduinoRTD">here.</a>
+                More documentation will be uploaded to the repo in the future.</p>
             </div>
 
-            <div class="column is-4">
+            <div class="column is-3">
               <a href="https://thomsmd.ca">
                 <figure class="image is-2by1 work-item" style="background-image: url('')">
                   <img class="thomsmd" src="static/img/thomsmd.jpg"> <!-- needs image-->
@@ -239,7 +262,7 @@
                   <li>HTML</li>
                   <li>JavaScript</li>
                 </ul><br>
-                I hope someday to look into different front-end frameworks such as React and Vue.js but being well-versed in webdev technologies is not my goal at the moment.
+                I hope someday to look into different front-end frameworks such as React and Vue.js but being an expert in webdev technologies is not my goal at the moment.
                 </p>
             </div>
           </div>
@@ -277,9 +300,12 @@
 
     <!-- Begin Footer -->
     <footer class="footer">
-      <p>
-        Last update: July 2021
-      </p>
+      <div class="content has-text-centered">
+        <p>
+          <strong>Last update: July 2021.</strong> View on GitHub <a href="https://github.com/thomaslee01/thomaslee01.github.io">here</a>. Icons made by 
+          <a href="https://www.freepik.com" title="Freepik">Freepik</a>. from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </p>
+      </div>
     </footer>
     <!-- End Footer -->
 
