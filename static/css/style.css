@@ -1,5 +1,5 @@
 
-@import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Kaushan+Script");
+@import url("https://fonts.googleapis.com/css?family=Lato|Poppins");
 .has-vertically-aligned-content {
   display: flex;
   flex-direction: column;
@@ -239,13 +239,14 @@ html {
 }
 
 .footer {
+  font-family: 'Poppins', sans-serif;
   bottom: 0;
   width: 100vw;
   padding: 0;
   height: 80px;
   line-height: 25px;
   text-align: center;
-  background: #ffffff;
+  background: white;
   color: black;
   padding-top: 2rem;
 }
