@@ -1,3 +1,3 @@
 # thomaslee01.github.io
-Personal website 
+alternate URL - [https://thomsmd.ca/](https://thomsmd.ca/)
 
