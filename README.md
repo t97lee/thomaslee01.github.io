@@ -1,3 +1,3 @@
 # thomaslee01.github.io
-alternate URL - [https://thomsmd.ca/](https://thomsmd.ca/)
+alternate URL - [http://thomlee.me/](http://thomlee.me/)
 
